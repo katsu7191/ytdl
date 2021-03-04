@@ -1,0 +1,24 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "ytdl-coreで動画をダウンロードするプログラム",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsu7191/ytdl.git"
+  },
+  "author": "katsu7191",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsu7191/ytdl/issues"
+  },
+  "homepage": "https://github.com/katsu7191/ytdl#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "npm": "^7.6.0",
+    "ytdl-core": "^4.5.0"
+  }
+}
