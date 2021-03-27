@@ -5,4 +5,4 @@ const BASE_PATH = `https://www.youtube.com/watch?v=`;
 const youtubeId = data.yturl;
 const url = BASE_PATH+youtubeId;
 
-ytdl(url).pipe(fs.createWriteStream(`${youtubeId}.mp4`));
+ytdl(url).pipe(fs.createWriteStream(`${youtubeId}-Blackrose-YouTube-Downloader.mp4`));
